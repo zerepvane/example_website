@@ -1,5 +1,5 @@
 ---
-title: "Saman Shafiq"
+title: "Vanessa Perez"
 image: uicpic.jpg
 about:
  template: jolla
