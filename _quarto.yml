@@ -1,0 +1,27 @@
+project:
+ type: website
+ output-dir: docs
+ resources:
+ - resume.pdf
+
+
+website:
+  title: "This is my example website"
+  site-url: "https://github.com/zerepvane/githubpagetest"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home #gives the name of the page on navbar
+      - about.qmd
+      - href: testpage.qmd # doesnt need href but good practice
+        text: Test
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
